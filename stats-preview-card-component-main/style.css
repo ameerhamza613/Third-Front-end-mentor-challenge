@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-size: 1.5rem;
+  font-family: "Inter", sans-serif;
+  line-height: 1.2;
+  font-weight: 400;
+  background-color: hsl(233, 47%, 7%);
+  position: relative;
+}
+.fig {
+  /* width: 100rem; */
+  border-radius: 12px;
+}
+.hor-card {
+  width: 75rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+
+  transform: translate(-50%, 50%);
+}
+.text {
+  background-color: hsl(244, 38%, 16%);
+  padding: 4rem;
+  border-top-left-radius: 12px;
+  border-bottom-left-radius: 12px;
+  /* margin-bottom: 0.4rem; */
+}
+.heading {
+  font-size: 2.6rem;
+  color: hsl(0, 0%, 100%);
+
+  margin-bottom: 2rem;
+}
+.word {
+  color: hsl(277, 64%, 61%);
+}
+.description {
+  color: hsla(0, 0%, 100%, 0.75);
+  font-size: 1rem;
+  line-height: 1.4;
+  padding-right: 5rem;
+  margin-bottom: 6rem;
+}
+.analytics {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 5rem;
+}
+.number {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.templates {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.queries {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.num {
+  color: hsla(0, 0%, 100%, 0.6);
+  font-size: 1.8rem;
+}
+.aik {
+  color: hsla(0, 0%, 100%, 0.75);
+  font-size: 1.1rem;
+}
+.picture {
+  background-image: linear-gradient(
+      to right,
+      rgba(152, 17, 236, 0.5),
+      rgba(152, 28, 230, 0.5) /* rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.6) */
+    ),
+    url(/images/image-header-desktop.jpg);
+  background-size: cover;
+  background-position: top;
+  border-top-right-radius: 12px;
+  border-bottom-right-radius: 12px;
+}
+/* .image {
+  max-width: 100%;
+  border-top-right-radius: 12px;
+  border-bottom-right-radius: 12px;
+} */
+/* background-image: linear-gradient(
+  to right bottom,
+  rgba(126, 213, 111, 0.767),
+  rgba(40, 180, 133, 0.74)
+),
+url(../img/hero.jpg); */
